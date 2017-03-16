@@ -1,7 +1,7 @@
 version: '2'
 services:
   web:
-    image: omar/hola_mundo:v1
+    image: omarmontoya90/hola_mundo:v1
     ports:
       - "3000:3000"
     volumes:

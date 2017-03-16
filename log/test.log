@@ -71,3 +71,18 @@ Processing by WelcomeController#index as HTML
   Rendered welcome/index.html.erb within layouts/application (2.4ms)
 Completed 200 OK in 124ms (Views: 116.0ms | ActiveRecord: 0.0ms)
   [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (107.0ms)[0m  [1m[35mDROP DATABASE IF EXISTS "hola_mundo_test"[0m
+  [1m[35m (297.3ms)[0m  [1m[35mCREATE DATABASE "hola_mundo_test" ENCODING = 'utf8'[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2017-03-16 16:14:20 +0000
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 131ms (Views: 123.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
